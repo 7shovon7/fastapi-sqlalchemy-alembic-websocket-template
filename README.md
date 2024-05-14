@@ -19,6 +19,12 @@ cd project-name
 git clone https://github.com/7shovon7/fastapi-sqlalchemy-alembic-websocket-template.git .
 ```
 
+- Ensure that you don't have any of migration version files accidentally pulled from this repo
+
+```zsh
+rm -rf migrations/versions/*
+```
+
 - Create virtual environment (Consider choosing the right one - python or python3 and pip or pip3)
 
 ```bash
@@ -63,5 +69,3 @@ alembic upgrade head
 ```bash
 python3 asgi.py
 ```
-
-## Please consider deleting any migration files unintentionally pushed to `migrations/versions/` directory
