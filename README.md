@@ -1,20 +1,37 @@
 # Simplest Starter Kit for FastAPI, SQLAlchemy, Alembic and WebSocket
 
-To start with it -
+To start with it:
+
+- Create a new project
 
 ```bash
 mkdir project-name
 cd project-name
+```
+
+- Clone the repo
+
+```bash
 git clone https://github.com/7shovon7/fastapi-sqlalchemy-alembic-websocket-template.git .
+```
+
+- Create virtual environment (Consider choosing the right one - python or python3 and pip or pip3)
+
+```bash
 python3 -m venv venv
 source venv/bin/activate
+```
+
+- Install the dependencies
+
+```bash
 pip3 install -r requirements.txt
 ```
 
 ## App settings
 
 - Add `.env` file and update.
-- Update settings data in `app/config.py`.
+- Update settings data in `api/config.py`.
 
 ## Database
 

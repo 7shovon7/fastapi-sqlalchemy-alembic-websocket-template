@@ -8,8 +8,8 @@ load_dotenv()
 
 
 class Settings:
-    PROJECT_NAME: str = f"AdMrt Chat API - {os.getenv('ENV', 'production').capitalize()}"
-    DESCRIPTION: str = "Chat API for AdMrt.com"
+    PROJECT_NAME: str = f"FastAPI - {os.getenv('ENV', 'production').capitalize()}"
+    DESCRIPTION: str = "FastAPI with SQLAlchemy, Alembic and WebSocket"
     ENV: Literal["development", "staging", "production"] = os.getenv('ENV', 'production')
     VERSION: str = "0.1"
     SECRET_KEY: str = secrets.token_urlsafe(32)
