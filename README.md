@@ -64,4 +64,4 @@ alembic upgrade head
 python3 asgi.py
 ```
 
-## [Please consider deleting any migration files unintentionally pushed to `migrations/versions/` directory]
+## Please consider deleting any migration files unintentionally pushed to `migrations/versions/` directory
