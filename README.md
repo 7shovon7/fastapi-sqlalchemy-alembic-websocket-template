@@ -1,5 +1,9 @@
 # Simplest Starter Kit for FastAPI, SQLAlchemy, Alembic and WebSocket
 
+Overcomplicating and overengineering is really really bad! At the same time we need all the important elements for future expansion. Here comes this FastAPI boilerplate template.
+
+This is as simple as any beginner can start with it. At the same time it includes most of the important elements to be the easiest starting point for a strong FastAPI API project.
+
 To start with it:
 
 - Create a new project
