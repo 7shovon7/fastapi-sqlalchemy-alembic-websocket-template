@@ -4,8 +4,10 @@ from sqlalchemy.orm import sessionmaker
 from api.config import settings
 
 
-DATABASE_URI = settings.DATABASE_URI
-engine = create_engine(DATABASE_URI, connect_args={"check_same_thread": False})
+engine = create_engine(settings.DATABASE_URI, connect_args={"check_same_thread": False})
+
+# # If not sqlite3
+# engine = create_engine(DATABASE_URI)
 
 SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
 Base = declarative_base()
