@@ -21,20 +21,15 @@ git clone https://github.com/7shovon7/fastapi-sqlalchemy-alembic-websocket-templ
 
 - Ensure that you don't have any of migration version files accidentally pulled from this repo
 
-```zsh
+```bash
 rm -rf migrations/versions/*
 ```
 
-- Create virtual environment (Consider choosing the right one - python or python3 and pip or pip3)
+- Create virtual environment and install the dependencies (Consider choosing the right one - python or python3 and pip or pip3)
 
 ```bash
 python3 -m venv venv
 source venv/bin/activate
-```
-
-- Install the dependencies
-
-```bash
 pip3 install -r requirements.txt
 ```
 
