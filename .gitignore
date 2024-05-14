@@ -1,6 +1,5 @@
 ### Custom ###
 *.db
-/Users/mars/Desktop/programming/templates/fastapi-sqlalchemy-alembic/migrations/versions/
 
 ### Linux ###
 *~

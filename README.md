@@ -63,3 +63,5 @@ alembic upgrade head
 ```bash
 python3 asgi.py
 ```
+
+## [Please consider deleting any migration files unintentionally pushed to `migrations/versions/` directory]
